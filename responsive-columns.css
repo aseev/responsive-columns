@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container {
+	width:1024px;
+	margin:30px auto 30px auto;
+}
+
+.clear-floats {
+	clear:both;
+}
+
+
+/* TWO COLUMN SET */
+.two-col-set-left {
+	float:left;
+	width:48%;
+}
+
+.two-col-set-right {
+	float:right;
+	width:48%;
+}
+
+
+/* TWO COLUMN SET with wide right */
+.two-col-set-narrow-left {
+	float:left;
+	width:30.6666666667%;
+}
+
+.two-col-set-wide-right {
+	float:right;
+	width:65.3333333333%;
+}
+
+
+
+/* TWO COLUMN SET with wideleft */
+.two-col-set-wide-left {
+	float:left;
+	width:65.3333333333%;
+}
+
+.two-col-set-narrow-right {
+	float:right;
+	width:30.6666666667%;
+}
+
+
+
+/* THREE COLUMN SET */
+.three-col-set-left {
+	float:left;
+	width:30.6666666667%;
+}
+
+.three-col-set-middle {
+	float:left;
+	width:30.6666666667%;
+	margin-left:4%;
+}
+
+.three-col-set-right {
+	float:right;
+	width:30.6666666667%;
+}
+
+
+
+/* THREE COLUMN SET with wideleft */
+.three-col-set-wide-left {
+	float:left;
+	width:48%;
+}
+
+.three-col-set-narrow-middle {
+	float:left;
+	width:22%;
+	margin-left:4%;
+}
+
+.three-col-set-narrow-right {
+	float:left;
+	width:22%;
+}
+
+
+
+/* THREE COLUMN SET with wide right */
+.three-col-set-narrow-left {
+	float:left;
+	width:22%;
+}
+
+.three-col-set-narrow-middle {
+	float:left;
+	width:22%;
+	margin-left:4%;
+}
+
+.three-col-set-wide-right {
+	float:right;
+	width:48%;
+}
+
+
+
+/* THREE COLUMN SET with wide middle */
+.three-col-set-narrow-left {
+	float:left;
+	width:22%;
+}
+
+.three-col-set-wide-middle {
+	float:left;
+	width:48%;
+	margin-left:4%;
+}
+
+.three-col-set-narrow-right {
+	float:right;
+	width:22%;
+}
+
+
+
+/* FOUR COLUMN SET */
+.four-col-set-first {
+	float:left;
+	width:22%;
+}
+
+.four-col-set-second {
+	float:left;
+	width:22%;
+	margin-left:4%;
+}
+
+.four-col-set-third {
+	float:left;
+	width:22%;
+	margin-left:4%;
+}
+
+.four-col-set-fourth {
+	float:right;
+	width:22%;
+}
+
+
+
+/* ALL SETS */
+.two-col-set-left, .two-col-set-right, .two-col-set-narrow-left, .two-col-set-wide-right, .two-col-set-wide-left, .two-col-set-narrow-right, .three-col-set-left, .three-col-set-middle, .three-col-set-right, .three-col-set-wide-left, .three-col-set-narrow-middle, .three-col-set-narrow-right, .three-col-set-narrow-left, .three-col-set-narrow-middle, .three-col-set-wide-right, .three-col-set-narrow-left, .three-col-set-wide-middle, .three-col-set-narrow-right, .four-col-set-first, .four-col-set-second, .four-col-set-third, .four-col-set-fourth {
+	margin-bottom:30px;
+	background-color:#ccc;
+}
+
+
+
+/* MEDIA QUERIES */
+/* -------------------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+.container {
+	width:96%;
+	margin:30px auto 30px auto;
+}
+
+.two-col-set-left, .two-col-set-right, .two-col-set-narrow-left, .two-col-set-wide-right, .two-col-set-wide-left, .two-col-set-narrow-right, .three-col-set-left, .three-col-set-middle, .three-col-set-right, .three-col-set-wide-left, .three-col-set-narrow-middle, .three-col-set-narrow-right, .three-col-set-narrow-left, .three-col-set-narrow-middle, .three-col-set-wide-right, .three-col-set-narrow-left, .three-col-set-wide-middle, .three-col-set-narrow-right, .four-col-set-first, .four-col-set-second, .four-col-set-third, .four-col-set-fourth {
+	float:none;
+	width:100%;
+	margin:0 0 30px 0;
+}
+
+
+/* -------------------------------------------------------------- */
+}
+/* -------------------------------------------------------------- */
