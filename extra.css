@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* Don't include this CSS Document in your project */
+
+.container {
+	width:1024px;
+	margin:30px auto 30px auto;
+}
+
+.column {
+	padding:20px 0;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#999;
+	background-color:#d7d7d7;
+}
+
+
+
+/* MEDIA QUERIES */
+/* -------------------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+.container {
+	width:96%;
+	margin:30px auto 30px auto;
+}
+
+
+/* -------------------------------------------------------------- */
+}
+/* -------------------------------------------------------------- */
