@@ -1,10 +1,16 @@
 @charset "UTF-8";
-/* CSS Document */
+/*!
+ * responsive-columns.css
+ * Author: Dmitriy Aseev
+ * Author URL: http://www.aseev.com/
+ * Github: https://github.com/aseev/
 
-.container {
-	width:1024px;
-	margin:30px auto 30px auto;
-}
+ * Made available under a MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+
+ * Copyright Dmitriy Aseev 2014.
+ */
+
 
 .clear-floats {
 	clear:both;
@@ -68,7 +74,7 @@
 
 
 
-/* THREE COLUMN SET with wideleft */
+/* THREE COLUMN SET with wide left */
 .three-col-set-wide-left {
 	float:left;
 	width:48%;
@@ -150,10 +156,9 @@
 
 
 
-/* ALL SETS */
-.two-col-set-left, .two-col-set-right, .two-col-set-narrow-left, .two-col-set-wide-right, .two-col-set-wide-left, .two-col-set-narrow-right, .three-col-set-left, .three-col-set-middle, .three-col-set-right, .three-col-set-wide-left, .three-col-set-narrow-middle, .three-col-set-narrow-right, .three-col-set-narrow-left, .three-col-set-narrow-middle, .three-col-set-wide-right, .three-col-set-narrow-left, .three-col-set-wide-middle, .three-col-set-narrow-right, .four-col-set-first, .four-col-set-second, .four-col-set-third, .four-col-set-fourth {
+/* ALL COLUMNS */
+.column {
 	margin-bottom:30px;
-	background-color:#ccc;
 }
 
 
@@ -162,12 +167,8 @@
 /* -------------------------------------------------------------- */
 @media only screen and (max-width: 600px) {
 
-.container {
-	width:96%;
-	margin:30px auto 30px auto;
-}
-
-.two-col-set-left, .two-col-set-right, .two-col-set-narrow-left, .two-col-set-wide-right, .two-col-set-wide-left, .two-col-set-narrow-right, .three-col-set-left, .three-col-set-middle, .three-col-set-right, .three-col-set-wide-left, .three-col-set-narrow-middle, .three-col-set-narrow-right, .three-col-set-narrow-left, .three-col-set-narrow-middle, .three-col-set-wide-right, .three-col-set-narrow-left, .three-col-set-wide-middle, .three-col-set-narrow-right, .four-col-set-first, .four-col-set-second, .four-col-set-third, .four-col-set-fourth {
+/* ALL COLUMNS */
+.column {
 	float:none;
 	width:100%;
 	margin:0 0 30px 0;
